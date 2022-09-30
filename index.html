@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body{
+			font-size: 200px;
+		}
+		.foto{
+			position: absolute;
+			left: 600px;
+			top: 200px;
+			height: 400px;
+			width: 400px;
+			background: url(cosa.png);
+		}
+	</style>
+</head>
+<body>
+	<div onmousedown="can.play()"> play </div>
+	<div onmousedown="can.pause()"> pause </div>
+	<div onmousedown="can.load()"> stop </div>
+	<div class="foto"></div>
+	<audio id="can" src="musi.mp3"></audio>
+</body>
+</html>
